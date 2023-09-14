@@ -1,0 +1,49 @@
+/*usamo o arquico reet pronto
+https://meyerweb.com/eric/tools/css/reset/
+*/
+
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin:0 auto;
+}
+nav {
+    position: absolute; /* em relação a janeta toa de posição*/
+    top: 110px; /*afastar do top*/
+    right: 0;/* afastar da direita*/
+}
+
+nav li{
+    display: inline;/*lado a lado*/
+    margin: 0 0 0 15px; /*aumentar espaços*/
+}
+
+/*link maiuculo*/
+
+nav a {
+    text-transform: uppercase; /*todas maiuc*/
+    color: #000000; /*cor*/
+    font-weight: bold; /*negrito, peso*/
+    font-size: 22px;
+    text-decoration: none;/* sem decoração*/
+
+}
+
+/*lagura divida*/
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+
+}
+/* coloca na linha*/
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+
+}
